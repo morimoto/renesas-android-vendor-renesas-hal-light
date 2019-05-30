@@ -19,6 +19,7 @@ cc_binary {
 
     name: "android.hardware.light@2.0-service.renesas",
     init_rc: ["android.hardware.light@2.0-service.renesas.rc"],
+    vintf_fragments: ["android.hardware.light@2.0-service.renesas.xml"],
 
     cflags: [
         "-Wall",
